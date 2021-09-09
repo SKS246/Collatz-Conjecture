@@ -1,8 +1,7 @@
 x = int(input("Number: "))
 iterations = 0
 
-
-while x != 1:
+while x != 1 or x != 1:
     if x % 2 == 1:
         x = (3 * x) + 1
         print(x)
